@@ -1,0 +1,64 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+}
+canvas {
+	display: block;
+}
+content {
+	position: relative;
+}
+.colors {
+	position: absolute;
+	top: 5px;
+	padding: 10px;
+}
+#color-1,
+#color-2,
+#color-3,
+#color-4,
+#color-5 {
+	width: 30px;
+	height: 30px;
+	border: 0px;
+	border-radius: 50%;
+	outline: none;
+}
+#color-1 {
+	background-color: red;
+}
+#color-2 {
+	background-color: green;
+}
+#color-3 {
+	background-color: blue;
+}
+#color-4 {
+	background-color: yellow;
+}
+#color-5 {
+	background-color: black;
+}
+
+.delete {
+	position: absolute;
+	top: 5px;
+	padding: 10px;
+	margin-left: 170px;
+}
+
+#btn_delete{
+	width:30px;
+	height:30px;
+	border-color:black;
+	color:red;
+}
+.users{
+	position:absolute;
+	color:green;
+	top:5px;
+	margin-left:80%;
+	font-size:24px;
+	padding:10px;
+}
